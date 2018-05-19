@@ -7,7 +7,6 @@ pipeline {
       }
     }
     stage('Test2') {
-      agent any
       steps {
         echo 'Hola desde Test2'
       }
